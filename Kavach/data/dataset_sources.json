@@ -1,0 +1,26 @@
+{
+  "dataset_name": "Kavach Multi-Source Acoustic Motor & Fan Condition Dataset",
+  "sources": [
+    {
+      "name": "CANDAS (Delta AUC0912D Fan)",
+      "hub_id": "IoTDataAtelier/CANDAS",
+      "license": "MIT"
+    },
+    {
+      "name": "MIMII Motor Subset",
+      "hub_id": "dcase-community/MIMII",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Synthetic Acoustic Motor Simulator",
+      "type": "Physics-based signal synthesis",
+      "license": "MIT"
+    }
+  ],
+  "augmentation": "pitch_shift, time_stretch, gaussian_noise, amplitude_scale",
+  "classes": [
+    "Normal",
+    "Imbalance/Rubbing Pattern",
+    "Maintenance Check Recommended"
+  ]
+}

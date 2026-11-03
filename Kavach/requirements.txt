@@ -1,0 +1,14 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+librosa
+soundfile
+torch
+torchaudio
+onnx
+onnxruntime
+onnxruntime-tools
+streamlit
+datasets
+huggingface-hub
